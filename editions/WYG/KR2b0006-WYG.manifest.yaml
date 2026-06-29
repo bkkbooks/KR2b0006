@@ -1,0 +1,70 @@
+canonical_identifier: bkk:krp/KR2b0006/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR2b0006/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 唐創業起居注
+  date: '2015-08-24 22:23:16.599642'
+  source:
+    repository: kanripo
+    path: KR2b0006
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR2b0006_000-WYG.yaml, hash: 'sha256:c16153e071e51aefaee5962c9aca092fedabd0d19740f53fb86e9ee1f616b5da'}
+  - {seq: 1, filename: KR2b0006_001-WYG.yaml, hash: 'sha256:da5b97b2d59e81ad54d9b22259b259024c503540476cc5d650ea8da76de50ae2'}
+  - {seq: 2, filename: KR2b0006_002-WYG.yaml, hash: 'sha256:0946345bf80b5dc110d63dde3d1a9ee7ce16d46e64ee7104281eb03bbccd9b82'}
+  - {seq: 3, filename: KR2b0006_003-WYG.yaml, hash: 'sha256:e6e03b7f1f0c24570e13c1ed5345903de75ab74683675e128aca0da1a055cc19'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2b0006_000-WYG.markers.yaml, hash: 'sha256:6a3b9edbc2e9c39d588d806b017d92e613e08806628b84c90fb5f2cfeb88a078'}
+  - {seq: 1, role: markers, filename: assets/KR2b0006_001-WYG.markers.yaml, hash: 'sha256:6dd76828e93ac1d6d88b5de066c72e4196655655139bec73ad3700014bc1f4b3'}
+  - {seq: 2, role: markers, filename: assets/KR2b0006_002-WYG.markers.yaml, hash: 'sha256:2f0b16da190fb25434a61faae3f437bc51656ca20b72c34e904e68bfb0296045'}
+  - {seq: 3, role: markers, filename: assets/KR2b0006_003-WYG.markers.yaml, hash: 'sha256:d1d900b4f767dfec89509d991ad22432cb3f63a2fcfc7a079131527ceab4fe09'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2b0006_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 268
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR2b0006_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 6149
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR2b0006_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 8920
+  label: juan 002
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR2b0006_WYG_003-1a
+    span:
+    - body
+    - 0
+    - 6231
+  label: juan 003
+  type: section
+  level: 1
+hash: sha256:b70b9dc6225c6b96862f5ac5075b867a73a176d586b7775736d1108b8182a1eb
